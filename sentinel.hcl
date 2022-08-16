@@ -34,6 +34,14 @@ policy "restrict-interface-link-state" {
   enforcement_level = "soft-mandatory"
 }
 
-policy "restrict-static-routes" {
-  enforcement_level = "hard-mandatory"
-}
+// policy "restrict-static-routes" {
+//   enforcement_level = "hard-mandatory"
+// }
+
+// policy "restrict-nat-rules" {
+//   enforcement_level = "hard-mandatory"
+// }
+
+// policy "restrict-interface-mtu" {
+//   enforcement_level = "hard-mandatory"
+// }
